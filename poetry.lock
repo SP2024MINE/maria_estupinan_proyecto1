@@ -905,6 +905,21 @@ files = [
 ]
 
 [[package]]
+name = "ucimlrepo"
+version = "0.0.7"
+description = "Package to easily import datasets from the UC Irvine Machine Learning Repository into scripts and notebooks."
+optional = false
+python-versions = ">=3.7"
+files = [
+    {file = "ucimlrepo-0.0.7-py3-none-any.whl", hash = "sha256:0a5ce7e21d7ec850a0da4427c47f9dd96fcc6532f1c7e95dcec63eeb40f08026"},
+    {file = "ucimlrepo-0.0.7.tar.gz", hash = "sha256:4cff3f9e814367dd60956da999ace473197237b9fce4c07e9a689e77b4ffb59a"},
+]
+
+[package.dependencies]
+certifi = ">=2020.12.5"
+pandas = ">=1.0.0"
+
+[[package]]
 name = "urllib3"
 version = "2.2.2"
 description = "HTTP library with thread-safe connection pooling, file post, and more."
@@ -924,4 +939,4 @@ zstd = ["zstandard (>=0.18.0)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11"
-content-hash = "f4d8a264dd603b14afedd489249ae8ce713bb379188d6cf7688cd655e6103b18"
+content-hash = "16c1a5794796f72c411ef7266025c8d6139f4a30d1b94d09e94fa8fc30a58d65"
