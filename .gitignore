@@ -396,3 +396,11 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+
+### MIS IGNORES ###
+
+*.env
+
+Codigo\mi_archivo_sectreto.txt
+
