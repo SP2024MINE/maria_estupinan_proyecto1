@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "app"
+version = "0.1.0"
+description = "Proyecto Tarea 12.07.2024"
+authors = ["alestu25 <alestu25@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11"
+scikit-learn = "^1.5.1"
+numpy = "^2.0.0"
+panda = "^0.3.1"
+matplotlib = "^3.9.1"
+seaborn = "^0.13.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
