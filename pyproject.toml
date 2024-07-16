@@ -17,6 +17,7 @@ ucimlrepo = "^0.0.7"
 pandas = "^2.2.2"
 sodapy = "^2.2.0"
 python-dotenv = "^1.0.1"
+streamlit = "^1.36.0"
 
 
 [build-system]
